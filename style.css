@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 
 .navbar {
@@ -14,7 +14,7 @@ body {
   align-items: center;
   /* gap: 20px; */
   height: 100px;
-  background-color: white;
+  background-color: transparent;
   z-index: 10;
 }
 
@@ -60,7 +60,7 @@ li {
 .navbtn {
   height: 40px;
   width: 134.65px;
-  border: #f05305;
+  border: #ffd8c4;
   color: white;
   background-color: #fa6216;
   font-size: 15px;
@@ -73,7 +73,7 @@ li {
 .heroSection {
   height: 100vh;
   width: 100%;
-  background-color: white;
+  background-color: transparent;
   margin-top: 20px;
   justify-content: center;
   align-items: center;
@@ -89,35 +89,83 @@ li {
   opacity: 10;
 }
 
-.firstDiv{
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    float: left;
-
-    
-    
+.firstDiv {
+  margin-top: 10%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  width: 40%;
+  float: left;
 }
 
-.firstDiv h5{
-    color: #fa6216;;
+.firstDiv p {
+  color: #fa6216;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
-.secondDiv{
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    float: right;
-    margin: 20px 20px;
-    padding: 10px 10px;
-    width:35%;
-    height: 45%;
-    border: 1px solid black;
-    border-radius: 20px;
-    border-width: 1px 1px 4px 1px;
+.firstDiv h1 {
+  color: #050505;
+  font-size: 64px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(5, 5, 5);
+  text-align: start;
+  line-height: 72px;
+}
+#paraSec{
+  font-family: "Space Grotesk", sans-serif;
+  color: #28292a;
+  font-size:16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.secondDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin: 50px 200px 50px 10px;
+  padding: 10px 10px;
+  height: 40%;
+  border: 1px solid black;
+  border-radius: 20px;
+  border-width: 1px 1px 4px 1px;
+}
+
+.heroBtndiv{
+  margin-top: 5%;
+}
+
+.heroBtn{
+  font-family: "Space Grotesk", sans-serif;
+  height: 50px;
+  width: 150.65px;
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+  font-size: 15px;
+  border-radius: 30px;
+  border-width: 0.5px 2px 4px 2px;
+}
+.heroBtn2{
+  font-family: "Space Grotesk", sans-serif;
+  height: 50px;
+  width: 170.65px;
+  border: #ffd8c4;
+  color: white;
+  background-color: #fa6216;
+  font-size: 15px;
+  border-radius: 30px;
+  border-width: 0.5px 2px 4px 2px;
+  margin-left: 5%;
 }
