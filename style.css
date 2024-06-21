@@ -5,10 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  /* background-color: antiquewhite; */
-}
-
 .navbar {
   display: flex;
   align-items: center;
@@ -71,6 +67,7 @@ li {
 /* Hero section starts here */
 
 .heroSection {
+  position: relative;
   height: 100vh;
   width: 100%;
   background-color: transparent;
@@ -90,6 +87,7 @@ li {
 }
 
 .firstDiv {
+  position:absolute;
   margin-top: 10%;
   margin-left: 10%;
   display: flex;
@@ -109,7 +107,7 @@ li {
   text-transform: uppercase;
 }
 
-.firstDiv h1 {
+.firstDiv h1{
   color: #050505;
   font-size: 64px;
   font-family: "Space Grotesk", sans-serif;
@@ -118,13 +116,26 @@ li {
   font-variant: normal;
   text-transform: none;
   text-decoration: none solid rgb(5, 5, 5);
+  align-items: center;
   text-align: start;
+  display: inline-block;
   line-height: 72px;
+
 }
-#paraSec{
+.firstDiv img{
+  justify-content: center;
+  align-items: start;
+  height: 64px;
+  width: 64px;
+ 
+ 
+}
+
+
+#paraSec {
   font-family: "Space Grotesk", sans-serif;
   color: #28292a;
-  font-size:16px;
+  font-size: 16px;
   line-height: 32px;
   font-weight: 400;
 }
@@ -142,11 +153,12 @@ li {
   border-width: 1px 1px 4px 1px;
 }
 
-.heroBtndiv{
+.heroBtndiv {
   margin-top: 5%;
+  display: flex;
 }
 
-.heroBtn{
+.heroBtn {
   font-family: "Space Grotesk", sans-serif;
   height: 50px;
   width: 150.65px;
@@ -156,8 +168,11 @@ li {
   font-size: 15px;
   border-radius: 30px;
   border-width: 0.5px 2px 4px 2px;
+  font-weight: 500;
 }
-.heroBtn2{
+
+
+.heroBtn2 {
   font-family: "Space Grotesk", sans-serif;
   height: 50px;
   width: 170.65px;
@@ -170,28 +185,119 @@ li {
   margin-left: 5%;
 }
 
-.herodiv3{
+.herodiv3 {
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   float: right;
   margin: 50px 200px 50px 10px;
-  padding: 10px 10px;
+  padding: 5px 5px;
   height: fit-content;
   border: 1px solid black;
   border-radius: 20px;
   border-width: 1px 1px 4px 1px;
-  transform: rotate(-20deg);
+  transform: rotate(-8deg);
   z-index: 2;
+  left: 879px;
+  top: 120px;
+  background-color: white;
 }
 
-.heroimage2{
-  height: 338px;
-  width: 326px;
+.heroimage2 {
+  z-index: 5;
+  
+  height: 350px;
+  width: 350px;
+}
+
+.heroSymbol{
+  z-index: 5;
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  right: 380px;
+  top: 360px;
+}
+
+.imageCircle {
+  position: relative;
+  border: 1px solid color;
+  height: 96px;
+  width: 96px;
+  border: 1px solid black;
+  border-width: 1px 1px 4px 1px;
+  border-radius: 50%;
+  left: 700px;
+  top: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Third section starts here */
+
+.teamSection{
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamFirstdiv{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team1div{
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: start;
+  margin-left: 12%;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+
+}
+
+.team1div h4{
+  font-size: 32px;
+  line-height:40px;
+  font-weight:500;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.team1div h4>span{
+  color: #fa6216;;
+}
+
+.teammain{
+  background-color: #f7f6f2;
+  height: 300px;
+  padding: 50px;
+}
+
+.imageDiv{
+
+  height: 80px;
+  width: 200px;
+  border: 1px solid black;
+  padding: 10px 100px;
+  justify-content: center;
+  border-radius: 10px;
+  border-width: 1px 1px 4px 1px;
+  padding: 10px;
+  background-color: white;
+ 
   
 }
-
-.imageCircle{
-  border: 1px solid color;
-  border-radius: 50%;
+.imageDiv img{
+  padding-left: 40px;
+  margin-top: 18px;
 }
+
